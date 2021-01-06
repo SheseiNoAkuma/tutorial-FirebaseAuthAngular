@@ -1,43 +1,43 @@
 <mat-toolbar color="primary">
   <mat-toolbar-row>
-    <button 
-      mat-button 
+    <button
+      mat-button
       routerLink="/feed"
-      matTooltip="🐱Gram Home">
-      🐱Gram
+      matTooltip="🐔 Home">
+      <mat-icon
+        aria-hidden="false"
+        aria-label="🐔">
+        home
+      </mat-icon>
     </button>
     <span class="spacer"></span>
     <ng-container *ngIf="user$ | async as user; else loginIcon">
 
-      <button 
+      <button
         mat-icon-button
         routerLink="/create"
-        matTooltip="Post a cute 🐱"
-        >
+        matTooltip="You really was expecting something here? 🐔">
         <mat-icon
           aria-hidden="false"
-          aria-label="Post a cute 🐱"
-          >
+          aria-label="You really was expecting something here? 🐔">
           cloud_upload
         </mat-icon>
       </button>
 
-      <app-profile-card 
+      <app-profile-card
         [user]="user"
         (logoutClick)="logout()">
       </app-profile-card>
 
     </ng-container>
     <ng-template #loginIcon>
-      <button 
+      <button
         mat-icon-button
         (click)="login()"
-        matTooltip="Login"
-        >
+        matTooltip="Login">
         <mat-icon
           aria-hidden="false"
-          aria-label="Login"
-          >
+          aria-label="Login">
           fingerprint
         </mat-icon>
       </button>

@@ -3,6 +3,7 @@ import { auth } from 'firebase/app';
 import { BehaviorSubject, from, Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
 import { switchMap } from 'rxjs/operators';
+import * as firebase from 'firebase';
 
 @Injectable({
   providedIn: 'root',

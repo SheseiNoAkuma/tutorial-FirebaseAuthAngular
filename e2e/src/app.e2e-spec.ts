@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('KittyGramAuth app is running!');
+    expect(page.getTitleText()).toEqual('firebaseApp app is running!');
   });
 
   afterEach(async () => {

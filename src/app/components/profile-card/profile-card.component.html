@@ -3,16 +3,16 @@
   color="primary"
   [matMenuTriggerFor]="beforeMenu"
 >
-  <img 
+  <img
     [alt]="user.displayName"
     [src]="user.photoURL"
     class="avatar" />
 </button>
 <mat-menu #beforeMenu="matMenu" xPosition="before">
   <div class="profile-card">
-    <img 
+    <img
       [alt]="user.displayName"
-      [src]="user.photoURL" 
+      [src]="user.photoURL"
       class="big-avatar" />
     <h4>{{ user.displayName }}</h4>
     <p>{{ user.email }}</p>
@@ -22,7 +22,7 @@
     </button>
     <mat-divider></mat-divider>
     <p class="profile-footer">
-      Made with 😻 by <a href="https://twitter.com/SiddAjmera">@SiddAjmera</a>
+      Made with 🐔
     </p>
   </div>
 </mat-menu>

@@ -5,14 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: 'YOUR apiKey HERE',
-    authDomain: 'YOUR authDomain HERE',
-    databaseURL: 'YOUR databaseURL HERE',
-    projectId: 'YOUR projectId HERE',
-    storageBucket: 'YOUR storageBucket HERE',
-    messagingSenderId: 'YOUR messagingSenderId HERE',
-    appId: 'YOUR appId HERE',
-    measurementId: 'YOUR measurementId HERE',
+    apiKey: 'AIzaSyAMlwKH5hhS2I1GLcqFwWIGQtJV_Kk6k98',
+    authDomain: 'chickencup-56f40.firebaseapp.com',
+    projectId: 'chickencup-56f40',
+    storageBucket: 'chickencup-56f40.appspot.com',
+    messagingSenderId: '937324913869',
+    appId: '1:937324913869:web:8a44eb21388507289df584',
+    measurementId: 'G-F1Q0HFWR0C'
   },
 };
 

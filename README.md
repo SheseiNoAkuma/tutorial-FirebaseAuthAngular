@@ -1,6 +1,10 @@
-# KittyGramAuth
+# Firebase Auth
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
+This project was generated following this [article](https://indepth.dev/posts/1215/implement-google-sign-in-oauth-in-your-angular-app-in-under-15-minutes-2), 
+using [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
+
+The project implements Google Sign-In using [firebase](https://console.firebase.google.com/)
+
 
 ## Development server
 
